@@ -38,7 +38,7 @@ public class LinkedList
 		size++;
 	}
 
-	public void add (E item, int position) throw Exception
+	public void add (E item, int position) throws Exception
 	{
 		if (position >= size || position < 0)
 		{
@@ -66,7 +66,7 @@ public class LinkedList
 
 	}
 
-	public E get (int position)
+	public E get (int position) throws Exception
 	{
 		if (postion >= size || position < 0)
 		{
@@ -82,7 +82,7 @@ public class LinkedList
 		return node.data;
 	}
 
-	public E remove (int position)
+	public E remove (int position) throws Exception
 	{
 		if (postion >= size || position < 0)
 		{
